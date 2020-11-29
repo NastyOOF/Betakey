@@ -59,7 +59,7 @@ public class BetaCMD implements CommandExecutor {
                     }
                 } else if(args[0].equalsIgnoreCase("generate")) {
                     String randomKey = Keys.generate();
-                    player.sendMessage(Main.getMain().getPrefix() + "§7Dein Key: §c" + randomKey);
+                    player.sendMessage(Main.getMain().getPrefix() + "§7Dein Key: §c" + randomKey); //
                     Beta.insertKey(randomKey);
                 } else {
                     player.sendMessage(Main.getMain().getPrefix() + "§7Benutze: /beta <add/remove> <player>");
