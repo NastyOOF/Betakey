@@ -1,3 +1,8 @@
+/*
+ * Class created by Nasty / Ron S.
+ * 29.11.20, 05:48
+ */
+
 package de.nasty.betakey.utils;
 
 import com.google.gson.Gson;
