@@ -1,0 +1,8 @@
+name: Betakey
+version: ${project.version}
+main: de.nasty.betakey.Main
+authors: [Nasty]
+description: Simple Betakey System
+
+commands:
+  beta:
