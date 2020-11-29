@@ -28,7 +28,7 @@ public class BetaCMD implements CommandExecutor {
                         if(Beta.isExistingAccount(targetID)) {
                             if(Beta.getWhitelisted(targetID) == 0) {
                                 Beta.setWhitelisted(targetID, 1);
-                                player.sendMessage(Main.getMain().getPrefix() + "§c" + target + " §7hat jetzt Beta Zugriff!");
+                                player.sendMessage(Main.getMain().getPrefix() + "§c" + target + " §7hat jetzt Beta Zugriff!"); //
                             } else {
                                 player.sendMessage(Main.getMain().getPrefix() + "§c" + target + " §7hat bereits Beta Zugriff!");
                             }
