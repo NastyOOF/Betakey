@@ -53,7 +53,11 @@ public final class Main extends JavaPlugin {
         System.out.println("                               __/ |         __/ |                       __/ |");
         System.out.println("                              |___/         |___/                       |___/ ");
         System.out.println("                                                                                       ");
-        Bukkit.getConsoleSender().sendMessage("                              §a§lLOADED SUCCESSFULLY");
+        if(MySQL.isConnected()) {
+            Bukkit.getConsoleSender().sendMessage("                              §a§lLOADED SUCCESSFULLY");
+        } else {
+            Bukkit.getConsoleSender().sendMessage("                              §c§lLOADED NOT SUCCESSFULLY");
+        }
         System.out.println("                                                                                       ");
         System.out.println("                                                                                       ");
     }
